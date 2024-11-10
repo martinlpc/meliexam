@@ -2,6 +2,8 @@
 
 ## Mutant DNA detector
 
+Python app to detect mutant DNA samples.
+
 Instructions to run the API web server:
 
 1 - Create a virtual environment and activate it:
