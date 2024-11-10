@@ -19,7 +19,7 @@ Instructions to run the API web server:
 
     fastapi dev main.py
 
-Now that te server is running, you can send POST requests to the endpoint:
+Now that the server is running, you can send POST requests to the endpoint:
 
     http://<YourIPAddress>:<port>/mutant
 

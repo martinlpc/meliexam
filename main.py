@@ -82,11 +82,6 @@ def check_dna_sequence(sequence) -> bool:
     return False
 
 
-# mutantDna = ["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
-# result = is_mutant(mutantDna)
-# print(f"Mutant detected?: {result}")
-
-
 @app.post("/mutant")
 async def receive_dna_sample(dnaSample: dna):
 
